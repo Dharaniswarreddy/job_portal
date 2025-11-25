@@ -1,37 +1,3 @@
-/*
-Job Application Portal - Single-file React App
-Filename: JobApplicationPortal.jsx
-
-Instructions:
-1. Create a new React app (recommended: Vite):
-   npm create vite@latest job-portal -- --template react
-   cd job-portal
-   npm install
-
-2. Replace src/main.jsx with the default and create src/App.jsx with the contents of this file.
-   Or paste this file as src/App.jsx and then in src/main.jsx import App from './App.jsx'.
-
-3. Optional: run a mock API with json-server:
-   npm install -g json-server
-   Create db.json with { "applications": [] }
-   Run: json-server --watch db.json --port 4000
-
-   To enable sending data to the mock API, set `USE_JSON_SERVER = true` in the code and update JSON_SERVER_URL.
-   The project by default stores data in localStorage so no backend is required.
-
-What this file contains (all features requested):
-- /apply page: form with name, email, phone, experience (years), resume upload
-- Form validation: required fields, email & phone simple checks
-- File upload: resume read as Data URL and stored in localStorage (or sent to mock API)
-- Submit to mock API (commented and optional) or localStorage
-- /applications page: lists submitted applications
-- Search by name and filter by experience (min years)
-- Basic styling and UX hints
-
-Note: this single-file app uses React Router. If your project template doesn't include React Router, install it:
-  npm install react-router-dom
-
-*/
 
 import React, { useEffect, useState } from 'react'
 import { createRoot } from 'react-dom/client'
